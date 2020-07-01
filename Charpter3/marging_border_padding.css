@@ -1,0 +1,46 @@
+body {
+    background: black;
+    width: 500px;
+    margin: 50px auto;
+}
+
+div {
+    border: 5px solid red;
+    text-align: center;
+    padding: 5px;
+}
+
+p.first {
+    color: white;
+    padding: 3px;
+    border: 1px dashed yellow;
+}
+
+.second {
+    color: blue;
+    padding: 3px;
+    border: 1px dashed blueviolet;
+    margin: 30px;
+}
+
+.click {
+    color: orange;
+    text-decoration: none;
+}
+
+.click:visited {
+    color: green;
+}
+
+.click:hover {
+    text-decoration: underline;
+}
+
+nav{
+    color:white;
+    float:right;
+    width: 100px;
+}
+p {
+    color:yellow;
+}
