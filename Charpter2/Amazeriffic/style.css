@@ -6,10 +6,31 @@ body {
     background: #f0a500;
 }
 
+header .container, main .container, footer .container{
+    max-width: 855px;
+    margin: auto;
+}
+
 header {
-    background: white;
+    background: #f4f4f4;
+    overflow: auto;
+}
+
+header h1 {
+    float: left;
+    width: 570px;
+}
+
+header nav {
+    float: right;
+    width: 285px;
 }
 
 main {
-    background: white;
+    background: #f4f4f4;
+}
+
+main img{
+    float: right;
+
 }
