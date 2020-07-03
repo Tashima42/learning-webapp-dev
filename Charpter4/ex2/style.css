@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #76ead7;
+}
+
+header, main, footer {
+    min-width: 855px;
+}
+
+.container {
+    max-width: 855px;
+    margin: auto;
+}
+
+header {
+    overflow: auto;
+    background: #eeeeee;
+}
+
+header h1 {
+    float: left;
+}
+
+header h5 {
+    float: right;
+    margin: 10px;
+}
+
+main {
+    overflow: auto;
+    background: #eeeeee;
+}
+
+footer {
+    overflow: auto;
+}
