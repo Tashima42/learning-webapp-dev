@@ -4,7 +4,14 @@
 }
 
 body {
-    background: #76ead7;
+    background: #679b9b;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
 }
 
 header, main, footer {
@@ -18,23 +25,79 @@ header, main, footer {
 
 header {
     overflow: auto;
-    background: #eeeeee;
+    background: #ffeadb;
+    border-bottom: solid;
 }
 
 header h1 {
     float: left;
+    width: 500px;
 }
 
 header h5 {
     float: right;
-    margin: 10px;
+    padding-top: 10px;
+    width: 355px;
 }
 
 main {
     overflow: auto;
-    background: #eeeeee;
+    background: #ffeadb;
+}
+
+main .container {
+    margin-top: 2em;
+    margin-bottom: 7em;
+}
+
+main .comment-input {
+    float: left;
+    width: 285px;
+}
+
+main .comments {
+    float: right;
+    width: 570px
+}
+
+.label-text {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+main section input {
+    height: 1.8em;
+    width: 15em;
+    border-radius: 2px;
+}
+
+main section button {
+    height: 2.1em;
+    width: 1.4em;
+    border-radius: 4px;
+    background: #393e46;
+    color: white;
+}
+
+.comments p {
+    margin: 10px;  
+    width: 570px;
+    padding-left: 1em;
+}
+
+.comments p:nth-child(even) {
+    background: #f7c5a8;
+}
+
+.comments p:nth-child(odd) {
+    background: #ff9a76;
 }
 
 footer {
     overflow: auto;
+}
+
+footer p {
+    font-size: 0.8em;
+    padding-top: 1em;
 }
