@@ -1,5 +1,5 @@
 body {
-    background: #f0a500;
+    background: #f9e933;
 }
 
 header, main, footer {
@@ -12,7 +12,7 @@ header .container, main .container, footer .container {
 }
 
 header {
-    background: #f4f4f4;
+    background: white;
     overflow: auto;
 }
 
@@ -27,26 +27,16 @@ header nav {
 }
 
 main {
-    background: #f4f4f4;
-    width: 855px;
-}
-main p {
-    float: left;
-    width: 570px;
-}
-
-
-footer {
+    background: white;
     overflow: auto;
-    clear: both;
 }
 
-footer .contact {
+main .arguments {
     float: left;
     width: 570px;
 }
 
-footer .sitemap {
+main .image {
     float: right;
     width: 285px;
 }
