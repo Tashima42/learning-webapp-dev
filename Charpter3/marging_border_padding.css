@@ -20,7 +20,7 @@ p.first {
     color: blue;
     padding: 3px;
     border: 1px dashed blueviolet;
-    margin: 30px;
+    margin: 3px;
 }
 
 .click {
@@ -39,7 +39,7 @@ p.first {
 nav{
     color:white;
     float:right;
-    width: 100px;
+    width: 10px;
 }
 p {
     color:yellow;
