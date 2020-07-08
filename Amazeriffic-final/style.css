@@ -58,7 +58,6 @@ header .menu {
     color: #204051;
 }
 
-
 main {
     background: #84a9ac;
 
@@ -70,18 +69,6 @@ main {
 
     grid-area: "main";
     height: 75vh;
-}
-
-
-main .container {
-    background: #ede59a;
-
-    flex-direction: column;
-
-    height: 50vh;
-    width: 60vw;
-
-    padding: 2rem;
 }
 
 .tabs a span {
@@ -105,19 +92,51 @@ main .container {
     background: #eee;
 }
 
+.content ul {
+    width: 50vw;
+    height: 60vh;
+    background: #ede59a;
+    
+    margin-top: 0;
+
+    padding: 2rem;
+}
+
+.content ul li {
+    font-size: 2rem;
+    list-style: none;
+    margin-bottom: 0.3rem;
+
+    background-color: #f8f3c2;
+}
+
 footer {
     background: #204051;
 
     height: 15vh;
     grid-area: "footer";
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-footer .map {
-    display: none;
+footer h4 {
+    font-size: 1.3rem;
+
+    color: white;
+    
+    margin-top: 0.8rem;
+    margin-bottom: 0;
 }
 
-/* 
-color: #f6f4e6;
-color: #204051;
-color: #84a9ac;
-color: #ede59a; */
+footer li {
+    font-size: 1rem;
+    list-style: none;
+    color: white;
+}
+
+footer .ul-map {
+    display: flex;
+    flex-direction: row;
+}
