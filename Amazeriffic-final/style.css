@@ -1,0 +1,93 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul, li, p, a, span {
+    text-decoration: none;
+    font-family: 'Open-sans', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+}
+
+header {
+    background: #ede59a;
+
+    grid-area: "header";
+    height: 10vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: #204051;
+
+    margin-left: 1rem;
+}
+
+header .menu {
+    align-content: center;
+}
+
+.menu a {
+    margin: 1rem;
+
+    font-size: 1.5rem;
+    color: #204051;
+}
+
+
+main {
+    background: #84a9ac;
+
+    display: flex;
+
+    grid-area: "main";
+    height: 75vh;
+}
+
+.tabs h1{
+    background: #f6f4e6;
+
+    align-content: center;
+}
+
+
+footer {
+    background: #204051;
+
+    height: 15vh;
+    grid-area: "footer";
+}
+
+footer .map {
+    display: none;
+}
+
+/* 
+color: #f6f4e6;
+color: #204051;
+color: #84a9ac;
+color: #ede59a; */
