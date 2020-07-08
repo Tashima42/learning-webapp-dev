@@ -92,7 +92,7 @@ main {
     background: #eee;
 }
 
-.content ul {
+.content {
     width: 50vw;
     height: 60vh;
     background: #ede59a;
@@ -108,6 +108,26 @@ main {
     margin-bottom: 0.3rem;
 
     background-color: #f8f3c2;
+}
+
+.addTasks h2 {
+    font-size: 1.8rem;
+    color: #204051;
+}
+
+.addTasks input {
+    width: 15vw;
+    height: 2vh;
+
+    margin-left: 3rem;
+    background: #fffcc7;
+}
+
+.addTasks button {
+    height: 2.8vh;
+    background: #204051;
+    color: #ede59a;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem ;
 }
 
 footer {
