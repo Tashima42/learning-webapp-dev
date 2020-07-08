@@ -1,12 +1,7 @@
-let show = true;
+var main = function(){
+    "use strict";
 
-const menuSection = document.querySelector(".menu-section");
-const menuToggle = menuSection.querySelector(".menu-toggle");
+    $(".tabs a:nth")
+}
 
-menuToggle.addEventListener("click", () => {
-
-    document.body.style.overflow = show ? "hidden" : "initial";
-
-    menuSection.classList.toggle("on", show)
-    show = !show;
-});
+$(document).ready(main);

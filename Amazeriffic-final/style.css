@@ -64,16 +64,46 @@ main {
 
     display: flex;
 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
     grid-area: "main";
     height: 75vh;
 }
 
-.tabs h1{
-    background: #f6f4e6;
 
-    align-content: center;
+main .container {
+    background: #ede59a;
+
+    flex-direction: column;
+
+    height: 50vh;
+    width: 60vw;
+
+    padding: 2rem;
 }
 
+.tabs a span {
+    font-size: 2rem;
+    color: #204051;
+    background: #ddd;
+
+    display: inline-block;
+
+    border-radius: 0.6rem 0.6rem 0 0;
+    padding: 0.6rem;
+
+    justify-content: center;
+
+    width: 8rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.tabs a span.active {
+    background: #eee;
+}
 
 footer {
     background: #204051;
