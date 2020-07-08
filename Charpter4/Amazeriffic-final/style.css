@@ -92,6 +92,10 @@ main {
     background: #eee;
 }
 
+.hideClass {
+    display: none;
+}
+
 .content {
     width: 50vw;
     height: 60vh;
@@ -110,12 +114,12 @@ main {
     background-color: #f8f3c2;
 }
 
-.addTasks h2 {
+.content h2 {
     font-size: 1.8rem;
     color: #204051;
 }
 
-.addTasks input {
+.content input {
     width: 15vw;
     height: 2vh;
 
@@ -123,7 +127,7 @@ main {
     background: #fffcc7;
 }
 
-.addTasks button {
+.content button {
     height: 2.8vh;
     background: #204051;
     color: #ede59a;
