@@ -1,5 +1,5 @@
 var main = function () { 
-    window.alert("Hello World!");
- };
+    $(".relevant p").css("color", "red");
+};
 
  $(document).ready(main);
